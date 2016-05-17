@@ -1,0 +1,8 @@
+<section class="categories-wrap">
+  <h2 class="categories-title"><%= theme.categories.title%></h2>
+  <%- list_categories({
+        transform: function (t,s,d) {
+            return '#' + t;
+        }
+    }) %>  
+</section>

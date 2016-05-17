@@ -1,5 +1,7 @@
-<% if(post.type == 'tags') { %>
+<% if(post.type == 'tags' ) { %>
   <%- partial('post/tags') %>
+<% } else if(post.type == 'categories') { %>
+  <%- partial('post/categories') %>
 <% } else { %>
   <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemprop="blogPost">
     <% if(index) { %>
