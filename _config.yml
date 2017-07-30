@@ -9,24 +9,18 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: 主页
+    text: Home
     url: /
   archives:
     url: /archives
   tags:
     url: /tags
-  th-list:
-    text: Categories
-    url: /categories
   github:
-    url: https://github.com/yscoder
+    url: https://github.com/bestsonic
     target: _blank
   weibo:
-    url: http://www.weibo.com/ysweb
+    url: http://weibo.com/3264372631
     target: _blank
-  link:
-    text: 测试
-    url: /custom
 
 # 你的头像url
 avatar: /img/avatar.jpg
@@ -38,7 +32,7 @@ brand: /img/brand.jpg
 favicon: /favicon.ico
 
 # email
-email: 634206017@qq.com
+email: Bestsonic@sina.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#3F51B5'
@@ -46,13 +40,12 @@ color: '#3F51B5'
 # 页面标题
 tags_title: Tags
 archives_title: Archives
-categories_title: Categories
 
 # 文章截断
-excerpt_render: false
+excerpt_render: true
 excerpt_length: 200
-excerpt_link: 阅读全文...
-mathjax: false
+excerpt_link: More ...
+mathjax: true
 archive_yearly: true
 
 # 是否显示文章最后更新时间
@@ -62,8 +55,8 @@ show_last_updated: true
 share: true
 
 # 是否开启打赏，关闭 reward: false
-reward:
-  title: 谢谢大爷~
+reward: 
+  title: 谢谢土豪(✪ω✪)~
   wechat: /img/wechat.jpg     #微信，关闭设为 false
   alipay: /img/alipay.jpg     #支付宝，关闭设为 false
 
@@ -82,7 +75,7 @@ toc:
 postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
 
 # 站长统计，如要开启，输入CNZZ站点id，如 cnzz: 1255152447
-cnzz: false
+cnzz: 1259030806
 
 # 百度统计，如要开启，改为你的 key
 baidu_tongji: false
@@ -91,8 +84,8 @@ baidu_tongji: false
 tajs: false
 
 # google
-google_analytics: false
-google_site_verification: false
+google_analytics: 'UA-77412363-1'
+google_site_verification: true
 
 # less
 less:
@@ -104,7 +97,7 @@ less:
 # 是否开启 disqus
 disqus_shortname: false
 # 是否开启友言评论, 填写友言用户id
-uyan_uid: false
+uyan_uid: 2140269
 # 是否开启网易云跟帖， 填写app sdk中的app key
 wangyi_ygt: false
 # 是否使用 gitment，https://github.com/imsun/gitment
@@ -125,7 +118,7 @@ canonical: false
 since_year: 2015
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 用户页面中作者相关的描述性文字，如不需要设为 false
+about: false
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
@@ -134,8 +127,8 @@ visit_counter:
 
 # 动态定义title
 title_change:
-  normal: (つェ⊂)咦!又好了!
-  leave: 死鬼去哪里了！
+  normal: (O_O)?咦!又好了!
+  leave: o(TωT)o 去哪里啦? 快回来
 
 # 设置为 true 发布后将使用 unpkg cdn
 cdn: true
